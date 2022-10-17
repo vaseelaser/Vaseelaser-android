@@ -35,5 +35,11 @@ public class One extends DialogFragmentHelper
         __binder.view2.setOnClickListener(l);
 
 
+        __binder.viewGenerator.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+            }
+        });
     }
 }

@@ -18,4 +18,20 @@
         <item name="android:windowEnterAnimation">@anim/fade_in</item>
         <item name="android:windowExitAnimation">@anim/fade_out</item>
     </style>
+
+    <style name="BottomDialogAnim">
+        <item name="android:windowEnterAnimation">@anim/progress_show</item>
+        <item name="android:windowExitAnimation">@anim/progress_dismiss</item>
+    </style>
+
+    <!-- buttons ok cancel-->
+    <style name="AppTheme.BottomButtonsOKCancel" parent="Widget.AppCompat.Button.Borderless.Colored">
+        <item name="android:textColor">@color/primary</item>
+        <item name="android:padding">0dp</item>
+    </style>
+
+    <style name="CompatPopupAlert" parent="Theme.Vaseelaser">
+        <item name="android:windowEnterAnimation">@anim/slide_in</item>
+        <!--<item name="android:windowExitAnimation">@anim/slide_out </item>-->
+    </style>
 </resources>

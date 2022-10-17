@@ -7,4 +7,110 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <!-- app palette - turquoise based-->
+    <color name="primary">#ffffff</color>
+    <color name="primary_dark">#ff9933</color>
+    <color name="primary_dark_semitransparent">#aaff9933</color>
+    <color name="primary_darker">#995b1e</color>
+    <color name="library_showcase_bg">#dd245f53</color>
+    <color name="sidebar_bg_selected">#bdcfcb</color>
+    <color name="sidebar_bg">#e9efed</color>
+    <color name="sidebar_text_selected">@android:color/black</color>
+    <color name="sidebar_text_not_selected">#4c4c4c</color>
+    <color name="extended_btn_bg">#cc7a28</color>
+
+    <color name="progress_dialog_bg">#33000000</color>
+
+    <color name="secondary">#48bea7</color>
+    <color name="alert_dialog_border">#7fffd4</color>
+
+    <color name="bottom_color_icon">#6c6c6c</color>
+    <color name="bottom_bg_color">#ddffffff</color>
+
+    <color name="teardrop_menu_bg">#60000000</color>
+
+    <color name="fragment_bg">#e0ead7</color>
+    <color name="card_over_fragment_bg">#eafbdc</color>
+    <color name="icon_container_over_card">#d2e1c6</color>
+
+    <color name="login_icons">@android:color/black</color>
+    <color name="login_loginbtn">@color/white_70</color>
+    <color name="black_22">#222222</color>
+    <color name="black_33">#333333</color>
+    <color name="black_44">#444444</color>
+    <color name="black_66">#666666</color>
+    <color name="white_70">#dddddd</color>
+    <color name="red_10">#20FF0000</color>
+    <color name="red_50">#99FF0000</color>
+    <color name="red_30">#cc0000</color>
+    <color name="red_recording">#ad6666</color>
+    <color name="gray">#bbbbbb</color>
+    <color name="gray_50">#777777</color>
+    <color name="gray_darker">#555555</color>
+    <color name="transparent">#00ffffff</color>
+    <color name="semi_transparent">#7f000000</color>
+    <color name="transparent_black_40">#dd000000</color>
+    <color name="transparent_black_70">#88ffffff</color>
+    <color name="transparent_toast">#ccffffff</color>
+    <color name="transparent_weather">#44ffffff</color>
+    <color name="transparent_weather_darker">#99ffffff</color>
+    <color name="transparent_login">#88ffffff</color>
+    <color name="transparent_black_dd">#88000000</color>
+    <color name="marker_base">#7f5200</color>
+    <color name="marker_base_outline">#ffa500</color>
+    <color name="transparent_bg_google_button">#bbaaaaaa</color>
+    <color name="fields_by_crop_bg">@color/white_70</color>
+
+    <color name="round_frame_solid_bg">@android:color/white</color>
+    <color name="fragments_subtitles">@color/gray_50</color>
+    <color name="fragments_titles">@android:color/black</color>
+    <color name="fab_default_bg">@color/primary</color>
+    <color name="fab_default_drawable">@android:color/white</color>
+    <!--weather (current)-->
+    <color name="weather_icons_labels">@android:color/white</color>
+    <color name="icons_tint">@color/gray_darker</color>
+    <!--fragment bg-->
+    <color name="fragments_bg">@color/white_70</color>
+    <color name="fragments_settings_titles">@color/gray_darker</color>
+    <color name="fragments_settings_arrows">@android:color/black</color>
+    <!-- settings checkbox-->
+    <color name="cb_checked">@color/primary</color>
+    <color name="cb_unchecked">@color/gray_darker</color>
+    <!-- calendar history item bg-->
+    <color name="calendar_history_item_bg">@color/gray</color>
+    <!--field details menu icons-->
+    <color name="field_details_menu_icons">@android:color/black</color>
+    <!--divider-->
+    <color name="divider">@color/gray</color>
+    <!-- list view, image container -->
+    <color name="gray_list_img_bg">#aaaaaa</color>
+    <!-- cardview bg-->
+    <color name="cardview_bg">@android:color/white</color>
+    <!-- cardview img bg-->
+    <color name="cardview_img_bg">#f0f0f0</color>
+    <!-- cardview icon color-->
+    <color name="cardview_icon">@color/gray_darker</color>
+    <!-- camera rec status -->
+    <color name="camera_rec_status">@color/gray_darker</color>
+    <color name="forecast_charts">@color/gray_darker</color>
+    <color name="autologin_bg">@android:color/white</color>
+    <color name="zoom_to_projection">@color/gray_darker</color>
+    <color name="camera_card_bg">@color/gray</color>
+    <color name="field_details_cards_img_bg">#E6E6E6</color>
+    <color name="field_details_bg">@android:color/white</color>
+    <color name="field_details_cards_img_bg_disabled">@color/gray</color>
+    <color name="snackbar_bg">@android:color/white</color>
+    <color name="snackbar_text">@color/gray_darker</color>
+    <!--farmb apps parent-->
+    <color name="farmb_apps_titles">@color/gray_darker</color>
+    <color name="transparent_bg_google_button_focused">#34B311</color>
+    <color name="transparent_bg_google_button_disabled">#ff7f7f</color>
+    <color name="weather_cards_bg">@color/gray</color>
+    <color name="weather_icons">#000000</color>
+
+    <color name="dialog_close">@color/black_66</color>
+
+    <color name="yellow">#efb600</color>
+    <color name="blue">#1978ff</color>
 </resources>

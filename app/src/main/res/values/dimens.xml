@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="bottom_drawer_corners">15dp</dimen>
+    <dimen name="alert_dialog_corners">24dp</dimen>
+    <dimen name="alert_dialog_top_margin">20dp</dimen>
+    <dimen name="alert_dialog_bottom_margin">10dp</dimen>
+    <dimen name="alert_dialog_padding">10dp</dimen>
+    <dimen name="alert_dialog_horizontal_margin">10dp</dimen>
+    <dimen name="user_details_font_size">16sp</dimen>
+    <dimen name="corner_radius_dialog">16dp</dimen>
+    <dimen name="corner_radius_button">4dp</dimen>
+    <dimen name="corner_radius_extended_fab">100dp</dimen>
+    <dimen name="nav_header_padding_horizontal">10dp</dimen>
+    <dimen name="nav_header_padding_vertical">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">135dp</dimen>
+    <dimen name="appbar_icon_size">30dp</dimen>
+    <dimen name="appbar_last_icon_margin_end">25dp</dimen>
+    <dimen name="appbar_icon_margin_end">22dp</dimen>
+    <dimen name="appbar_title_margin_start">@dimen/appbar_last_icon_margin_end</dimen>
+    <dimen name="appbar_title_size">21sp</dimen>
+    <dimen name="appbar_icon_size_medium">30dp</dimen>
+    <dimen name="viewpager_next_item_visible">26dp</dimen>
+    <dimen name="viewpager_current_item_horizontal_margin">42dp</dimen>
+    <dimen name="viewpager_current_item_horizontal_margin_landscape">22dp</dimen>
+    <dimen name="toolbox_icon_container">42dp</dimen>
+    <dimen name="appbar_bottom_height">40dp</dimen>
+    <dimen name="appbar_margin">5dp</dimen>
+    <dimen name="padding_bottom_container">50dp</dimen>
+    <dimen name="details_icons_width_percent_portrait">0.27</dimen>
+    <dimen name="details_icons_height_percent_portrait">0.16</dimen>
+
+    <dimen name="details_icons_width_percent_land">0.16</dimen>
+    <dimen name="details_icons_height_percent_land">0.30</dimen>
+
+    <dimen name="text_size_large">20sp</dimen>
+    <dimen name="text_size_medium">17sp</dimen>
+    <dimen name="text_size_small">15sp</dimen>
+
+    <dimen name="seek_bar_thumb_size">20dp</dimen>
+    <dimen name="seek_bar_thickness">3dp</dimen>
+    <dimen name="calendar_add_card_img_height">100dp</dimen>
+    <dimen name="theme_img_card">160dp</dimen>
+
+    <dimen name="card_container_corner">15dp</dimen>
+    <dimen name="card_details_apps_corner">25dp</dimen>
+    <dimen name="force_round_image">150dp</dimen>
+    <dimen name="qr_size">200dp</dimen>
+    <dimen name="gallery_scroller_height">120dp</dimen>
+
+    <item name="dialog_custom_start_guide" format="float" type="dimen">0.1</item>
+    <item name="dialog_custom_end_guide" format="float" type="dimen">0.9</item>
+
+
+</resources>
