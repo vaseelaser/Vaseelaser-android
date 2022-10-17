@@ -33,7 +33,7 @@ import java.util.ArrayList;
 @SuppressWarnings("Convert2Lambda")
 public class PopUpAlertDialog extends DialogFragment {
 
-    private final static int ANIM_DURATION_MS = 500;
+    private final static int ANIM_DURATION_MS = 0;
     private final CompatAlertBundle mBundle;
     private View mRootView;
     private final boolean mIsNative;
@@ -82,8 +82,8 @@ public class PopUpAlertDialog extends DialogFragment {
         mRootView = inflater.inflate(mBundle.getLayoutID(), container, false);
 
         if (!mIsNative) mNonNativeDeadArea = mRootView.findViewById(R.id.dead_area);
-        ANIM_IN_MS = 1000;
-        ANIM_OUT_MS = 1000;
+        ANIM_IN_MS = 0;
+        ANIM_OUT_MS = 0;
 
         if (mBundle.getInitWithDialog()) {
             mProgress = new ProgressDialog(mBundle.getActivity());

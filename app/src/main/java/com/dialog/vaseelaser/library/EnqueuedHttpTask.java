@@ -107,14 +107,12 @@ public class EnqueuedHttpTask {
                 requestBuilder.delete();
                 break;
             case POST_USER_DATA:
+                Log.e("pame","ligo");
                 requestBuilder.post(mRequestBody);
-
                 requestBuilder.addHeader("Accept", "application/json, text/javascript, */*; q=0.01");
-
                 requestBuilder.addHeader("Content-Type", "application/json");
-                requestBuilder.addHeader("X-CSRF-TOKEN", "HYumR8IZO6CABbbYCbHmeCongzO5GyD7wxyBQQta");
+                requestBuilder.addHeader("X-CSRF-TOKEN", "oNxaWMQF6lprtTZb6NmKelhekIVjYBzzUI8MMGx2");
                 requestBuilder.addHeader("X-Requested-With", "XMLHttpRequest");
-
                 requestBuilder.addHeader("Origin", "https://fancy-generator.com");
                 requestBuilder.addHeader("Connection", "keep-alive");
                 requestBuilder.addHeader("Referer", "https://fancy-generator.com/vaporwave-text-generator");

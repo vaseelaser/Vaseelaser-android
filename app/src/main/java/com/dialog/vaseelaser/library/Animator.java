@@ -32,11 +32,11 @@ public class Animator {
     // slide constants
 
     public static float TRANSITION_ANIMATION_SCALE = 1.0f;
-    public final static int ANIMATION_DELAY_FADE_MS = 30;
-    public final static int ANIMATION_DELAY_SLIDE_MS = 50;
-    public final static int ANIM_MARKERS_SHOW_HIDE_MS = 600;
+    public final static int ANIMATION_DELAY_FADE_MS = 0;
+    public final static int ANIMATION_DELAY_SLIDE_MS = 0;
+    public final static int ANIM_MARKERS_SHOW_HIDE_MS = 0;
 
-    private final static int _INTERNAL_MS = 400;
+    private final static int _INTERNAL_MS = 0;
 
     private static boolean mIsAnimating = false;
 

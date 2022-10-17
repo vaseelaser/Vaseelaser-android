@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <solid android:color="@color/round_frame_solid_bg" />
+
+            <padding
+                android:bottom="2dp"
+                android:top="2dp" />
+
+            <corners
+                android:topLeftRadius="@dimen/alert_dialog_corners"
+                android:topRightRadius="@dimen/alert_dialog_corners"/>
+        </shape>
+    </item>
+</layer-list>
