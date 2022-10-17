@@ -9,6 +9,10 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import com.dialog.vaseelaser.databinding.OneBinding;
+import com.dialog.vaseelaser.library.EtherListener;
+import com.dialog.vaseelaser.library.Vaporizer;
+
+import java.util.List;
 
 public class One extends DialogFragmentHelper
 {
@@ -39,6 +43,12 @@ public class One extends DialogFragmentHelper
             @Override
             public void onClick(View v) {
 
+                Vaporizer.translate(_pActivity, "ela ligo", new EtherListener() {
+                    @Override
+                    public void onEtherReceived(List<String> response, int code, String calledURL) {
+
+                    }
+                });
             }
         });
     }
