@@ -75,6 +75,7 @@ android:id="@+id/appbar"
             android:layout_gravity="end"
             android:layout_marginTop="10dp"
             android:layout_marginBottom="@dimen/alert_dialog_bottom_margin"
+            android:layout_marginEnd="10dp"
             android:weightSum="1">
 
             <ImageView

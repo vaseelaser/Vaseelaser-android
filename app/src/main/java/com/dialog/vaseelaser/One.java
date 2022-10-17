@@ -43,6 +43,7 @@ public class One extends DialogFragmentHelper
 
         __binder.view1.setOnClickListener(l);
         __binder.view2.setOnClickListener(l);
+        __binder.view3.setOnClickListener(l);
 
 
         __binder.viewGenerator.setOnClickListener(new View.OnClickListener() {
