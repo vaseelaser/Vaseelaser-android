@@ -77,16 +77,17 @@ android:id="@+id/appbar"
             android:layout_marginBottom="@dimen/alert_dialog_bottom_margin"
             android:weightSum="1">
 
-            <com.google.android.material.button.MaterialButton
+            <ImageView
                 android:id="@+id/dialog_default_cancel"
-                style="@style/AppTheme.BottomButtonsOKCancel"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="⋆°  🎀  𝒸𝒶𝓃𝒸𝑒𝓁  🎀  °⋆" />
+                android:background="@drawable/cancel"
+                android:layout_width="90dp"
+                android:layout_gravity="center"
+                android:layout_height="40dp"  />
 
-            <Button
+            <ImageView
                 android:id="@+id/dialog_default_ok"
-                style="@style/AppTheme.BottomButtonsOKCancel"
+                android:background="@drawable/ok"
+                android:layout_gravity="center"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="𝔬Ќ  👍♠" />
