@@ -39,4 +39,12 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/view2"/>
 
+    <View
+        android:id="@+id/view_bend"
+        android:layout_width="190dp"
+        android:layout_height="70dp"
+        android:layout_marginBottom="120dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/view3"/>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

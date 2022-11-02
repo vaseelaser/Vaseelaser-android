@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
     private ActivityMainBinding __binder;
     protected static final String[] PERMS = {
             Manifest.permission.ACCESS_NETWORK_STATE,
-
+            Manifest.permission.READ_EXTERNAL_STORAGE,
             Manifest.permission.INTERNET,
 
             Manifest.permission.ACCESS_WIFI_STATE,

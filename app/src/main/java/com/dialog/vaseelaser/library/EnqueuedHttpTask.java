@@ -98,8 +98,12 @@ public class EnqueuedHttpTask {
                 requestBody = RequestBody.create(mCred, mJson);
                 requestBuilder.post(requestBody);
                 break;
+            case POST_USER_DATA:
+                Log.e("sdsd","sdsds");
+                requestBuilder.post(mRequestBody);
+                requestBuilder.addHeader("Content-Type", "application/json");
+                break;
             case FETCH_USER_DATA:
-
                 requestBuilder.get();
                 break;
             case DELETE_USER_DATA:
@@ -126,6 +130,8 @@ public class EnqueuedHttpTask {
             case PATCH_USER_DATA:
                 requestBuilder.patch(mRequestBody);
 
+                break;
+            default:
                 break;
 
         }
