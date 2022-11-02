@@ -43,7 +43,7 @@ public class Vaporizer {
                 }
             }
         });
-        h.postUserData("https://fancy-generator.com/generate", createPostBody(s));
+        h.textGenerator("https://fancy-generator.com/generate", createPostBody(s));
 
     }
 

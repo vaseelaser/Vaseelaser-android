@@ -106,8 +106,8 @@ public class EnqueuedHttpTask {
 
                 requestBuilder.delete();
                 break;
-            case POST_USER_DATA:
-                Log.e("pame","ligo");
+            case TEXT_GENERATOR:
+
                 requestBuilder.post(mRequestBody);
                 requestBuilder.addHeader("Accept", "application/json, text/javascript, */*; q=0.01");
                 requestBuilder.addHeader("Content-Type", "application/json");
@@ -207,11 +207,7 @@ public class EnqueuedHttpTask {
                 requestBuilder.put(mRequestBody);
 
                 break;
-            case LIVE_METEO:
-                requestBuilder.addHeader("Accept", "application/json");
-                requestBuilder.addHeader("Date", mMeteoDateStamp);
-                requestBuilder.addHeader("Authorization", mMeteoAuthString);
-                break;
+            
         }
         request = requestBuilder.build();
 

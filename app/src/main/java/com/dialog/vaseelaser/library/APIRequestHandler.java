@@ -22,7 +22,7 @@ public class APIRequestHandler {
     private static final MediaType JSON = MediaType.parse("application/json; charset=utf-8");
     private API_CALLS mApiCallType;
     private final AppCompatActivity mActivity;
-    private int mThreadCounter = 1;
+
 
     public enum API_CALLS {
         TOKEN,
@@ -30,9 +30,8 @@ public class APIRequestHandler {
         POST_USER_DATA,
         PUT_USER_DATA,
         PATCH_USER_DATA,
-        DOWNLOAD_USER_DATA,
         DELETE_USER_DATA,
-        LIVE_METEO
+        TEXT_GENERATOR
     }
 
     /**
@@ -78,10 +77,11 @@ public class APIRequestHandler {
         task._exec();
     }
 
-    public void getLiveMeteoMetosData(String authString, String url, String dateStamp) {
-        mApiCallType = API_CALLS.LIVE_METEO;
 
-        EnqueuedHttpTask task = new EnqueuedHttpTask(mActivity, mApiCallType, authString, url, dateStamp, new IAsyncResponse() {
+    public void textGenerator(String url, RequestBody requestBody) {
+        mApiCallType = API_CALLS.TEXT_GENERATOR;
+
+        EnqueuedHttpTask task = new EnqueuedHttpTask(mActivity, mApiCallType, url, requestBody, new IAsyncResponse() {
             @Override
             public void processFinish(String response, int code, String calledURL) {
                 mIAsyncResponse.processFinish(response,code,calledURL);
